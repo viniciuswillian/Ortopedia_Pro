@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OP-OrtopediaPro</title>
+    <!-- Inclua os estilos do Bootstrap CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        // Função para rolar suavemente para o topo
+        function scrollToTop() {
+    const scrollDuration = .03; // Duração da animação em milissegundos (valor menor = rolagem mais rápida)
+    const scrollStep = -window.scrollY / (scrollDuration / 1);
+
+    const scrollInterval = setInterval(function () {
+        if (window.scrollY !== 0) {
+            window.scrollBy(0, scrollStep);
+        } else {
+            clearInterval(scrollInterval);
+        }
+    }, 15);
+}
+
+
+        // Exibir o botão de rolagem quando o usuário rolar para baixo
+        window.onscroll = function () {
+            if (window.scrollY >= 300) {
+                document.getElementById("scrollToTopButton").style.display = "block";
+            } else {
+                document.getElementById("scrollToTopButton").style.display = "none";
+            }
+        };
+    </script>
+
+    
+</head>
+<body>
+
+    <header>
+        <nav class="OrtopediaPro: " data-bs-theme="dark">
+        <!-- Navbar content -->
+      </nav>
+      
+      <nav class="navbar bg-primary" data-bs-theme="dark">
+        <!-- Navbar content -->
+      </nav>
+      
+      <nav class="navbar" style="background-color: #e3f2fd;">
+        <!-- Navbar content -->
+      </nav>
+        <div id="title">
+            <h1>OrtopediaPro: </h1>
+            <h1>O seu bem-estar em primeiro lugar!</h1>
+        </div>
+        <ul>
+            <div class="aba">
+            <a href="#"><li>Inicio</li></a>
+            <a href="#"><li>Produtos</li></a>
+            <a href="#"><li>Sobre</li></a>
+            <a href="#"><li>Meus Pedidos</li></a>
+            <a href="#" id="conta-button"><li>Minha Conta</li></a>
+            </div>
+        </ul>
+    </header>
+
+    <div id="main"> 
+        <main>
+            
+            <aside>
+                <div class="login">
+                <h2>Cadastre-se agora e receba</h2>
+                <h2>nossos produtos em sua casa.</h2>
+                <p>Temos todos os tipos de produtos para auxiliar no seu dia-a-dia, atividades físicas e em seu tratamento pré ou pós operatório.</p>
+                <form>
+                    <input type="text" placeholder="Nome:">
+                    <input type="email" placeholder="E-mail:">
+                    <input class="enviar" type="submit" placeholder="Enviar">
+                </form>
+                </div>
+            </aside>
+            <article>
+                <img src="https://img.freepik.com/vetores-gratis/ilustracao-do-conceito-de-protese-de-perna-bionica_114360-15281.jpg" alt="Logo">
+            </article>
+    
+        </main>
+        <div class="produtos">
+        <h1>Conheça nossos produtos:</h1>
+    <ul class="lista-produtos">
+        <li class="produto">
+            <img src="img/bota.png" alt="Produto 1" class="imagem-redimensionada">
+            <h2 class="bota">Bota </h2>
+            <p class="p">Clique para Detalhes</p>
+        </li>
+        <li class="produto">
+            <img src="img/tornozeleira.png" alt="Produto 2"class="imagem-redimensionada">
+            <h2>Tornozeleira</h2>
+            <p class="p">Clique para Detalhes</p>
+        </li>
+        <li class="produto">
+            <img src="img/joelheira.png" alt="Produto 3"class="imagem-redimensionada">
+            <h2>Joelheira</h2>
+            <p class="p">Clique para Detalhes</p>
+        </li>
+        <li class="produto">
+            <img src="img/protese.png" alt="Produto 4"class="imagem-redimensionada">
+            <h2>Protese</h2>
+            <p class="p">Clique para Detalhes</p>
+        </li>
+        <li class="produto">
+            <img src="img/cinta.png" alt="Produto 5"class="imagem-redimensionada">
+            <h2>Cinta Ortopedica</h2>
+            <p class="p">Clique para Detalhes</p>
+        </li>
+        <li class="produto">
+            <img src="img/tipoia metalica.png" alt="Produto 6"class="imagem-redimensionada">
+            <h2>Tipoia Metal</h2>
+            <p class="p">Clique para Detalhes</p>
+        </li>
+        <li class="produto">
+            <img src="img/munhequeira.png" alt="Produto 7"class="imagem-redimensionada">
+            <h2>Munhequeira</h2>
+            <p class="p">Clique para Detalhes</p>
+        </li>
+        <li class="produto">
+            <img src="img/muleta.png" alt="Produto 8"class="imagem-redimensionada">
+            <h2>Muletas (par)</h2>
+            <p class="p">Clique para Detalhes</p>
+        </li> <li class="produto">
+            <img src="img/travesseiro.png" alt="Produto 9"class="imagem-redimensionada">
+            <h2>Travesseiro</h2>
+            <p class="p">Clique para Detalhes</p>
+        </li>
+    </ul>
+</div>
+
+    <footer id="footer-2">
+        <p class="rodape">Siga-nos nas redes sociais: @OrtopediaPro</p>
+        <p class="rodape">Contato: ortopediapro@gmail.com - (11) 99999-9999</p>
+        <p class="rodape">&copy; 2023, OrtopediaPro. Todos os direitos reservados.</p>
+      <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+      <a href="https://twitter.com/" target="_blank">Twitter</a>
+      
+</footer>
+
+<button id="scrollToTopButton" onclick="scrollToTop()">Voltar ao Topo</button>
+
+</div>
+    
+    <!-- Inclua os scripts do Bootstrap JS (opcional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
+    
+</body>
+</html>

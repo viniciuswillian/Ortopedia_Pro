@@ -1,0 +1,189 @@
+
+body{
+    background-color: #592a59;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+}
+header {
+    color: white;
+    background-color: #371a37;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+#scrollToTopButton {
+    display: none; /* Inicialmente, o botão está oculto */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #070707;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.aba {
+    margin-right: 10px;
+}
+#title{
+    flex-direction: column;
+    line-height: 10px;
+    margin: 20px;
+}
+li{
+    display: inline-block;
+    margin: 10px;
+}
+h1{
+    font-weight: 70px;
+    font-family: 'Croissant One', cursive;
+}
+main{
+ display: flex;
+ flex-direction: row;
+ margin-top: 20px;
+
+}
+
+h2{
+    font-size: 35px;
+    line-height: 23px;
+    font-family: 'Young Serif', serif;
+
+}
+span{
+    color: rgb(252, 248, 255);
+}
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+img{ 
+    margin: 40px;
+    width: 600px;
+    height: 400px;
+}
+
+
+.login{
+    margin-top: 60px;
+}
+
+.produtos{
+    margin-top: 10px;
+    
+}
+a{
+    padding: 10px;
+    background-color:#6a326a ;
+    color: white;
+    border-radius: 12px;
+}
+
+.produto{
+    margin: 60px;
+}
+
+.enviar{
+    margin-left: 85px;
+}
+
+a:hover{
+    color: black;
+    transition: 0.3s all;
+}
+#conta-button{
+    color: #000000;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 15px;
+}
+#conta-button:hover{
+    color: rgb(255, 255, 255);
+    transition: 0.3s all;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: #371a37;
+    color: white;
+    font-weight: bold;
+}
+input{
+    margin-top: 10px;
+    height: 10px;
+    padding: 15px;
+    border-radius: 20px;
+    border: 2px color black;
+    font-size: 15px;
+}
+/* Classe para redimensionar imagens */
+.imagem-redimensionada {
+    width: 120px;
+    height: 150px;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: none;
+}
+#main{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 50px;
+}
+#footer-2{
+    background-color: #371a37;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 30px;
+}
+.rodape{
+    margin-left: 300px;
+}
+
+.bota{
+    margin-left: 10px;
+}
+/* Defina a classe "p" */
+.p {
+    background-color: #fff; /* Cinza claro */
+    color: #000; /* Preto */
+    border-radius: 10px; /* Borda redonda */
+    padding: 10px; /* Espaçamento interno para afastar o conteúdo da borda */
+    max-width: 200px; /* Largura máxima antes da quebra de linha (ajuste conforme necessário) */
+    word-wrap: break-word; /* Quebra de linha automática */
+}
+
+.p:hover {
+    color: #592a59; /* Texto branco quando o mouse está sobre o elemento */
+    cursor: pointer; /* Altera o cursor para indicar que o elemento é clicável */
+}
+
+
+    /* Estilos para os links no rodapé
+#footer-2 a {
+        color: #fff;
+        text-decoration: none;
+        margin: 10px;
+
+}
+    
+#footer-2 a:hover {
+        text-decoration: underline;
+    
+} */
